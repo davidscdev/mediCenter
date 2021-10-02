@@ -279,3 +279,33 @@
     .footer-copy span {
         color: #fff;
     }
+    
+    @media (max-width:600px) {
+        .banner-headlines h1 {
+            font-size: 30px;
+            padding-left: 20px;
+        }
+        .banner-headlines h2 {
+            font-size: 20px;
+            padding-left: 20px;
+        }
+        .banner-options {
+            height: auto;
+            flex-direction: column;
+        }
+        .geral .container {
+            width: auto;
+            flex-direction: column;
+            padding-left: 20px;
+        }
+        .footer-menu,
+        .footer-area {
+            flex-direction: column;
+            height: auto;
+            width: auto;
+        }
+        .footer-area-item,
+        .footer-copy {
+            padding-left: 20px;
+        }
+    }

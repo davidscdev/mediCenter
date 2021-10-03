@@ -317,6 +317,11 @@
         .menu ul {
             display: none;
             flex-direction: column;
+            position: absolute;
+            top: 120px;
+            left: 0;
+            width: 100%;
+            background-color: #fff;
         }
         header {
             height: auto;
